@@ -40,7 +40,7 @@ To determine the most suitable QR code size for drone-based scanning, we tested 
 15 cm x 15 cm
 The evaluation considered factors such as scanning accuracy, recognition speed, and drone stability at various distances.
 
-Experimental Setup
+# Experimental Setup
 The testing environment was designed to replicate a small-scale warehouse setting:
 
 Takeoff & Landing Position: A table near a workstation.
@@ -48,18 +48,26 @@ Flight Path: The drone covers a distance of approximately 3.5m – 4m to reach t
 Scanning Position: The drone stops 1.5m – 2m from the cabinet.
 QR Code Placement: QR codes were placed at two different heights (0.6m above ground).
 Return Path: After scanning, the drone returns to the starting position.
-Challenges Encountered
+
+# Challenges Encountered
 Throughout the project, we encountered several challenges that required innovative problem-solving:
 
-Stability & Positioning:
+## Stability & Positioning:
 
 The drone’s small size made it susceptible to minor air turbulence.
 Adjustments in flight speed and altitude were needed to maintain a stable scanning position.
-QR Code Recognition:
+
+## QR Code Recognition:
 
 The smallest QR code (5 cm x 5 cm) was difficult to scan from a distance.
 Optimal performance was achieved with the 10 cm x 10 cm and 15 cm x 15 cm QR codes.
-Navigation Accuracy:
+
+## Navigation Accuracy:
 
 Hardcoded flight paths lacked flexibility.
 ORB SLAM with AprilTags provided better adaptability but required significant computational resources.
+
+# Conclusion
+The IBM Warehouse Project was a valuable learning experience where we combined theory with hands-on implementation. Working with industrial partners, we gained insights into real-world warehouse automation challenges and solutions. Our research contributes to the development of smart warehousing solutions, paving the way for more efficient, autonomous inventory management systems using drones.
+
+This project demonstrated the potential of autonomous drones in industrial applications, and with further refinement, such systems could be deployed in large-scale warehouse operations.
